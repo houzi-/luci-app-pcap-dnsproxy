@@ -65,6 +65,9 @@ define Package/luci-app-pcap-dnsproxy/install
 	
 	$(INSTALL_DIR) $(1)/usr/lib/lua/luci/model/cbi
 	$(INSTALL_DATA) ./files/luci/model/pcap-dnsproxy.lua $(1)/usr/lib/lua/luci/model/cbi/pcap-dnsproxy.lua
+	
+	$(INSTALL_DIR) $(1)/etc/init.d
+	$(INSTALL_BIN) ./files/etc/init.d/check $(1)/etc/init.d/check	
 endef
 
 

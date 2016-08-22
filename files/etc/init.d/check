@@ -1,0 +1,7 @@
+#!/bin/sh
+
+local XP=`cat /etc/crontabs/root | grep pcap`;[ "$XP" ] && exit 0 || continue
+sed -i 's/[\t]*//g' /etc/crontabs/root
+sed -i '' /etc/crontabs/root
+echo -e "*/1 * * * * /etc/init.d/pcap-dnsproxy start" >> /etc/crontabs/root
+
