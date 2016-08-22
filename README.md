@@ -1,13 +1,10 @@
 OpenWrt/LEDE LuCI for Pcap-DNSProxy
 ===
 
-[![Download][B]][D]
-
 特性
 ---
 
-软件包不包含 [Pcap-DNSProxy][L] 的可执行文件, 
-需要用户自行添.  
+软件包不包含 [Pcap-DNSProxy][L] 的可执行文件,需要用户自行添.
 可执行文件可通过安装 [Pcap-DNSProxy][O] 提供的 `Pcap-DNSProxy` 获得.  
 
 软件包文件结构:
@@ -64,11 +61,5 @@ make package/luci-app-pcap-dnsproxy/compile V=99
 
 
   [L]: https://github.com/shadowsocks/shadowsocks-libev
-  
   [O]: https://github.com/wongsyrone/openwrt-Pcap_DNSProxy
-  
   [S]: http://wiki.openwrt.org/doc/howto/obtain.firmware.sdk
-  
-  [B]: https://api.bintray.com/packages/aa65535/opkg/luci-app-shadowsocks/images/download.svg
-  
-  [D]: https://bintray.com/aa65535/opkg/luci-app-shadowsocks/_latestVersion
