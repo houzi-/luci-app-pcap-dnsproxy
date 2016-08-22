@@ -58,3 +58,7 @@ make menuconfig
 # 开始编译
 make package/luci-app-pcap-dnsproxy/compile V=99
 ```
+
+效果
+---
+![](http://7xpjbv.com1.z0.glb.clouddn.com/pcap-dnsproxy.PNG)
