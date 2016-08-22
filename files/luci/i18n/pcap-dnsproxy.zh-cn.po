@@ -1,0 +1,26 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Pcap-DNSProxy is not running"
+msgstr "Pcap-DNSProxy 未运行"
+
+msgid "Pcap-DNSProxy is running"
+msgstr "Pcap-DNSProxy 运行中"
+
+msgid "Pcap-DNSProxy"
+msgstr "Pcap-DNSProxy"
+
+msgid "Modify the configuration file,and then save the application"
+msgstr "修改配置文件,然后应用保存"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Configure"
+msgstr "配置"
+
+msgid "Guardian of the process"
+msgstr "进程守护"
+
+msgid "Only once"
+msgstr "仅需要一次轻轻触碰,永久高枕无忧"
