@@ -47,7 +47,7 @@ define Package/luci-app-pcap-dnsproxy/conffiles
 /etc/config/pcap-dnsproxy
 endef
 
-define Package/luci-app-pcap-dnsproxyi/postrm
+define Package/luci-app-pcap-dnsproxy/postrm
 #!/bin/sh
 rm -f /tmp/luci-indexcache
 exit 0
